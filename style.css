@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  background-color: rgb(201, 236, 236);
+  background-color: rgb(201, 245, 245);
   font-family: 'Roboto', sans-serif;
   width: 100vw;
   height: 100vh;
@@ -27,16 +27,16 @@ body {
   align-items: center;
 }
 
-
 .heading{
-  font-weight: 900;
-  font-style: oblique;
-  font-size: larger;
-  transition: 5s;
+  font-size: 2rem;
+  color: rgb(14, 14, 14);
+
+  transition: 10s;
 }
 
 .container {
-  background-color: rgb(88, 132, 179);
+
+  background-color: rgb(2, 55, 72);
   width: 23rem;
   height: 20rem;
   padding: 1rem;
@@ -51,12 +51,13 @@ body {
 
 /* calculator btn style starts here!!! */
 
+/* btn */
 button {
   width: 100%;
   height: 100%;
 }
 
-.input {
+.display {
   background-color: var(--clr-white);
   height: 3rem;
   border: 1px solid rgb(214, 213, 213);
@@ -117,7 +118,6 @@ button {
   color: var(--clr-white);
   background-color: var(--clr-blue);
   border: 1px solid var(--clr-blue);
-  cursor: pointer;
 }
 
 .numberSeven {
@@ -231,12 +231,16 @@ button {
 .operator {
   background-color: var(--clr-grey);
   border: 1px solid rgb(214, 213, 213);
-  cursor: pointer;
 }
 
 .number {
   background-color: var(--clr-white);
   border: 1px solid rgb(214, 213, 213);
-  cursor: pointer;
 }
 
+.input-text,
+.result {
+  width: 100%;
+  text-align: right;
+
+}
